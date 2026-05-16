@@ -1,2 +1,8 @@
+node_modules/
+dist/
+prisma/migrations/*
+logs/
+api/
+package-lock.json
 .vercel
-.env*.local
+config.bat
