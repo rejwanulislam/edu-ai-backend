@@ -4,9 +4,9 @@
   "description": "EduAI E-learning Platform Backend",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "node api.js && tsx watch src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node api.js && node dist/server.js",
+    "start": "node dist/server.js",
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
