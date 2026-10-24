@@ -1,15 +1,32 @@
 node_modules/
+
 dist/
+
 prisma/migrations/*
+
 logs/
+
 api/
+
 package-lock.json
+
 .vercel
+
 config.bat
 
+
+
 # Environment variables and local secrets
+
 !.env.example
+
 !.env.sample
+
 !.env.template
 
+
+
 # Local editor and workspace configuration
+
+
+# Incident Response Security Hardening
